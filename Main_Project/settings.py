@@ -75,7 +75,8 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://bus-booking-frontend-react.vercel.app"
    
 ]
 CORS_ALLOW_ALL_ORIGINS: True
