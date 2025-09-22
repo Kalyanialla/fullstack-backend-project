@@ -32,7 +32,7 @@ DEBUG = True
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
 
 ALLOWED_HOSTS = [
-    "https://bus-booking-frontend-react.vercel.app",
+    "bus-booking-frontend-react.vercel.app",
     '127.0.0.1',
     'localhost'
 ]
