@@ -31,13 +31,11 @@ DEBUG = True
 # Read ALLOWED_HOSTS from environment variable
 ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '127.0.0.1,localhost').split(',')
 
-# ALLOWED_HOSTS = [
-#     'fullstack-backend-project-qx0k.onrender.com',
-#     'fullstack-backend-project-fcap.onrender.com',
-#     '127.0.0.1',
-#     'localhost'
-# ]
-
+ALLOWED_HOSTS = [
+    
+    '127.0.0.1',
+    'localhost'
+]
 
 
 # Application definition
@@ -53,8 +51,6 @@ INSTALLED_APPS = [
     'bookings',
     'rest_framework.authtoken',
     'corsheaders',
-
-
 
 ]
 REST_FRAMEWORK = {
