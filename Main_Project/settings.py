@@ -77,7 +77,7 @@ MIDDLEWARE = [
 ]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://bus-booking-frontend-react.vercel.app",
+   "https://bus-booking-frontend-react-i4nv.vercel.app",
     "https://fullstack-backend-project-2.onrender.com"
    
 ]
