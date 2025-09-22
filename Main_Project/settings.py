@@ -26,7 +26,12 @@ SECRET_KEY = 'django-insecure-j&c--garm9_!e%6$pva085ygyu98t%qplz-g@)4x!uj*=6s349
 DEBUG = True
 
 # ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['fullstack-backend-project-qx0k.onrender.com']
+ALLOWED_HOSTS = [
+    'fullstack-backend-project-qx0k.onrender.com',
+    'fullstack-backend-project-fcap.onrender.com',
+    '127.0.0.1',
+    'localhost'
+]
 
 
 
