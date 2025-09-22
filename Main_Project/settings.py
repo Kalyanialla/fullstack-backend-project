@@ -34,7 +34,8 @@ ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '127.0.0.1,localhost').split(','
 ALLOWED_HOSTS = [
     "bus-booking-frontend-react.vercel.app",
     '127.0.0.1',
-    'localhost'
+    'localhost',
+    'fullstack-backend-project-2.onrender.com'
 ]
 
 
@@ -76,7 +77,8 @@ MIDDLEWARE = [
 ]
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "https://bus-booking-frontend-react.vercel.app"
+    "https://bus-booking-frontend-react.vercel.app",
+    "https://fullstack-backend-project-2.onrender.com"
    
 ]
 CORS_ALLOW_ALL_ORIGINS: True
